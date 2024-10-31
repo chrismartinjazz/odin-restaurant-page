@@ -17,11 +17,23 @@ img {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-light);
 }
 
 .container {
-
   margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border: solid red 1px;
+}
+
+.nav__button {
+  border: none;
+  border-radius: 2em;
 }
 
 .hero__image {
