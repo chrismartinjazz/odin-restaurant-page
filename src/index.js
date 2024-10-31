@@ -35,4 +35,4 @@ function selectButton(selected, all = allButtons) {
   selected.classList.add("selected");
 }
 
-// renderHome(content);
+renderHome(content);
